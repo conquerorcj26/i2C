@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="97500001fs"></ZoomEndTime>
+      <Cursor1Time time="97500000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/main/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/newd" type="logic">
+      <obj_property name="ElementShortName">newd</obj_property>
+      <obj_property name="ObjectShortName">newd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/rw" type="logic">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/sclt" type="logic">
+      <obj_property name="ElementShortName">sclt</obj_property>
+      <obj_property name="ObjectShortName">sclt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/sclk_wr" type="logic">
+      <obj_property name="ElementShortName">sclk_wr</obj_property>
+      <obj_property name="ObjectShortName">sclk_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/sda_en" type="logic">
+      <obj_property name="ElementShortName">sda_en</obj_property>
+      <obj_property name="ObjectShortName">sda_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/rdatat" type="array">
+      <obj_property name="ElementShortName">rdatat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdatat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/addrt" type="array">
+      <obj_property name="ElementShortName">addrt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrt[7:0]</obj_property>
+   </wvobject>
+</wave_config>
